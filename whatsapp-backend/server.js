@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 });
 
 // DB config
-const connection_url = "mongodb+srv://admin:zJFViyjt9eNQZAdC@cluster0.3tgtn.mongodb.net/whatsappdb?retryWrites=true&w=majority";
+const connection_url = "mongodb+srv://admin:<pass>@cluster0.3tgtn.mongodb.net/whatsappdb?retryWrites=true&w=majority";
 
 mongoose.connect(connection_url, {
   useCreateIndex: true,
